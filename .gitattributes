@@ -1,0 +1,14 @@
+
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Force certain files to always use LF (cross-platform friendly)
+*.sh text eol=lf
+*.lua text eol=lf
+*.vim text eol=lf
+*.json text eol=lf
+
+# Binary files (never touch)
+*.png binary
+*.jpg binary
+*.pdf binary
